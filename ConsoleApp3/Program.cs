@@ -7,6 +7,7 @@
             int firstNumber = int.Parse(Console.ReadLine());
             int secondNumber = int.Parse(Console.ReadLine());
             Console.WriteLine("Result is: " + SumNumbers(firstNumber, secondNumber));
+            Console.WriteLine("New text");
         }
 
         public static int SumNumbers(int num01, int num02)
