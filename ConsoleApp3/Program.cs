@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(SumNumbers(10, 15));
+            int firstNumber = int.Parse(Console.ReadLine());
+            int secondNumber = int.Parse(Console.ReadLine());
+            Console.WriteLine(SumNumbers(firstNumber, secondNumber));
         }
 
         public static int SumNumbers(int num01, int num02)
